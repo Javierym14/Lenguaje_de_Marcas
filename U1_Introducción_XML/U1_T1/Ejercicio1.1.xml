@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<libro>
+    <titulo>El campo</titulo>
+    <editorial>Edebe</editorial>
+    <paginas>
+        <pagina>250</pagina>
+    </paginas>
+    <autor>Stephem King</autor>
+    <capitulos>
+        <capitulo  titulo="Primer capitulo" >
+            <inicio>Pagina 5</inicio>
+            <titulo>Viaje</titulo>
+            <finalizacion>Pagina 30</finalizacion>
+        </capitulo>
+
+         <capitulo  titulo="Segundo capitulo" >
+            <inicio>Pagina 31</inicio>
+            <titulo>Problemas</titulo>
+            <finalizacion>Pagina 54</finalizacion>
+        </capitulo>
+
+         <capitulo  titulo="Tercer capitulo" >
+            <inicio>Pagina 55</inicio>
+            <titulo>Viaje</titulo>
+            <finalizacion>Pagina 70</finalizacion>
+        </capitulo>
+
+         <capitulo  titulo="Cuarto capitulo" >
+            <inicio>Pagina 71</inicio>
+            <titulo>Viaje</titulo>
+            <finalizacion>Pagina 90</finalizacion>
+        </capitulo>
+
+         <capitulo  titulo="Quinto capitulo" >
+            <inicio>Pagina 91</inicio>
+            <titulo>Viaje</titulo>
+            <finalizacion>Pagina 120</finalizacion>
+        </capitulo>
+
+         <capitulo  titulo="Sexto capitulo" >
+            <inicio>Pagina 121</inicio>
+            <titulo>Viaje</titulo>
+            <finalizacion>Pagina 156</finalizacion>
+        </capitulo>
+        
+       
+
+
+
+    </capitulos>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</libro>

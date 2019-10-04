@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="iso-8859-1UTF8"?>
+
+<tiendas>
+    <tienda>
+        <nombre>Mercadona</nombre>
+        <parcela>3</parcela>
+        <metros>
+            <metro>30m2</metro>
+        </metros>
+        <encargado>
+            <nombre>Juan</nombre>
+            <apellidos>
+                <apellido>Pérez</apellido>
+                <apellido>Pérez</apellido>
+            </apellidos>
+            <telefono>126894459</telefono>
+            <nss>1432248</nss>
+        </encargado>
+    </tienda>
+
+    <tienda>
+        <nombre>Carrefour</nombre>
+        <parcela>6</parcela>
+        <metros>
+            <metro>70m2</metro>
+        </metros>
+        <encargado>
+            <nombre>Pedro</nombre>
+            <apellidos>
+                <apellido>Rodríguez</apellido>
+                <apellido>Rodríguez</apellido>
+            </apellidos>
+            <telefono>126894459</telefono>
+            <nss>1432248</nss>
+        </encargado>
+
+
+
+    </tienda>
+
+    <tienda>
+        <nombre>HM</nombre>
+        <parcela>2</parcela>
+        <metros>
+            <metro>40m2</metro>
+        </metros>
+        <encargado>
+            <nombre>Maria</nombre>
+            <apellidos>
+                <apellido>Martinez</apellido>
+                <apellido>Pérez</apellido>
+            </apellidos>
+            <telefono>126894459</telefono>
+            <nss>1432248</nss>
+
+
+        </encargado>
+        
+
+
+    </tienda>
+
+    <tienda>
+        <nombre>Inside</nombre>
+        <parcela>9</parcela>
+        <metros>
+            <metro>68m2</metro>
+        </metros>
+        <encargado>
+            <nombre>Jaime</nombre>
+            <apellidos>
+                <apellido>Ruiz</apellido>
+                <apellido>Pérez</apellido>
+            </apellidos>
+            <telefono>126894459</telefono>
+            <nss>1432248</nss>
+
+
+        </encargado>
+        
+
+
+    </tienda>
+
+    <tienda>
+        <nombre>Pull and Bear</nombre>
+        <parcela>10</parcela>
+        <metros>
+            <metro>54m2</metro>
+        </metros>
+        <encargado>
+            <nombre>Laura</nombre>
+            <apellidos>
+                <apellido>Rios</apellido>
+                <apellido>Rios</apellido>
+            </apellidos>
+            <telefono>126894459</telefono>
+            <nss>1432248</nss>
+
+
+        </encargado>
+        
+
+
+    </tienda>
+
+    <tienda>
+        <nombre>Primark</nombre>
+        <parcela>7</parcela>
+        <metros>
+            <metro>120m2</metro>
+        </metros>
+        <encargado>
+            <nombre>Pablo</nombre>
+            <apellidos>
+                <apellido>Ramos</apellido>
+                <apellido>Ramos</apellido>
+            </apellidos>
+        <telefono>126894459</telefono>
+        <nss>1432248</nss>
+
+
+        </encargado>
+       
+
+
+    </tienda>
+
+    <tienda>
+        <nombre>Aldi</nombre>
+        <parcela>19</parcela>
+        <metros>
+            <metro>79m2</metro>
+        </metros>
+        <encargado>
+            <nombre>Gloria</nombre>
+            <apellidos>
+                <apellido>Flores</apellido>
+                <apellido>Pérez</apellido>
+            </apellidos>
+        <telefono>126894459</telefono>
+        <nss>1432248</nss>
+
+
+        </encargado>
+       
+
+
+    </tienda>
+
+    <tienda>
+        <nombre>Dia</nombre>
+        <parcela>1</parcela>
+        <metros>
+            <metro>71m2</metro>
+        </metros>
+        <encargado>
+            <nombre>Jose</nombre>
+            <apellidos>
+                <apellido>Pérez</apellido>
+                <apellido>Fernandez</apellido>
+            </apellidos>
+        <telefono>126894459</telefono>
+        <nss>1432248</nss>
+
+
+        </encargado>
+        
+
+
+    </tienda>
+
+    <tienda>
+        <nombre>Nike</nombre>
+        <parcela>2</parcela>
+        <metros>
+            <metro>38m2</metro>
+        </metros>
+        <encargado>
+            <nombre>Marta</nombre>
+            <apellidos>
+                <apellido>Jimenez</apellido>
+                <apellido>Pérez</apellido>
+            </apellidos>
+        <telefono>126894459</telefono>
+        <nss>1432248</nss>
+
+
+        </encargado>
+        
+
+
+    </tienda>
+
+    <tienda>
+        <nombre>Adidas</nombre>
+        <parcela>4</parcela>
+        <metros>
+            <metro>90m2</metro>
+        </metros>
+        <encargado>
+            <nombre>Javier</nombre>
+            <apellidos>
+                <apellido>Plaza</apellido>
+                <apellido>Pérez</apellido>
+            </apellidos>
+        <telefono>126894459</telefono>
+        <nss>1432248</nss>
+
+
+        </encargado>
+        
+
+
+    </tienda>
+
+
+
+
+
+
+
+
+
+
+
+</tiendas>

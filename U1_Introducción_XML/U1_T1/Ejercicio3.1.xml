@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="iso-8859-1UTF8"?>
+
+<coches>
+    <marcas>
+        <nombres>
+            <nombre>Renault
+            <procedencia>Estados Unidos</procedencia>
+
+            <modelos>
+                <modelo>Clio
+                <matricula>4516MJK</matricula>
+                <matriculacion>2019</matriculacion>
+                <plazas>
+                    <plaza>5</plaza>
+                </plazas>
+                <cilindrada>200</cilindrada>
+                </modelo>
+
+
+
+                <modelo>Safari
+                <matricula>1562HBN</matricula>
+                <matriculacion>2019</matriculacion>
+                <plazas>
+                    <plaza>5</plaza>
+                </plazas>
+                <cilindrada>250</cilindrada>
+                </modelo>
+            </modelos>
+            </nombre>
+
+            <nombre>Seat
+            <procedencia>Estados Unidos</procedencia>
+
+            <modelos>
+                <modelo>Leon
+                <matricula>4859KLM</matricula>
+                <matriculacion>2019</matriculacion>
+                <plazas>
+                    <plaza>5</plaza>
+                </plazas>
+                <cilindrada>150</cilindrada>
+                </modelo>
+
+
+
+
+                <modelo>Tigre
+                <matricula>1459HJN</matricula>
+                <matriculacion>2019</matriculacion>
+                <plazas>
+                    <plaza>8</plaza>
+                </plazas>
+                <cilindrada>150</cilindrada>
+                </modelo>
+            </modelos>
+            </nombre>
+
+            <nombre>Audi
+            <procedencia>Estados Unidos</procedencia>
+
+            <modelos>
+                <modelo>R8
+                <matricula>1487GBH</matricula>
+                <matriculacion>2018</matriculacion>
+                <plazas>
+                    <plaza>5</plaza>
+                </plazas>
+                <cilindrada>200</cilindrada>
+                </modelo>
+
+
+
+
+                <modelo>S9
+                <matricula>1459GBH</matricula>
+                <matriculacion>2016</matriculacion>
+                <plazas>
+                    <plaza>5</plaza>
+                </plazas>
+                <cilindrada>200</cilindrada>
+                </modelo>
+            </modelos>
+            </nombre>
+
+            <nombre>BMW
+            <procedencia>Estados Unidos</procedencia>
+
+            <modelos>
+                <modelo>M8
+                <matricula>4859KLM</matricula>
+                <matriculacion>2016</matriculacion>
+                <plazas>
+                    <plaza>2</plaza>
+                </plazas>
+                <cilindrada>250</cilindrada>
+                </modelo>
+
+
+
+
+                <modelo>S8
+                <matricula>1459HJN</matricula>
+                <matriculacion>2018</matriculacion>
+                <plazas>
+                    <plaza>5</plaza>
+                </plazas>
+                <cilindrada>200</cilindrada>
+                </modelo>
+            </modelos>
+            </nombre>
+
+            <nombre>Volvo
+            <procedencia>Estados Unidos</procedencia>
+
+            <modelos>
+                <modelo>DD8
+                <matricula>1236HBN</matricula>
+                <matriculacion>2014</matriculacion>
+                <plazas>
+                    <plaza>5</plaza>
+                </plazas>
+                <cilindrada>150</cilindrada>
+                </modelo>
+
+
+
+
+                <modelo>J9
+                <matricula>1459HJN</matricula>
+                <matriculacion>2019</matriculacion>
+                <plazas>
+                    <plaza>2</plaza>
+                </plazas>
+                <cilindrada>300</cilindrada>
+                </modelo>
+            </modelos>
+            </nombre>
+
+
+
+
+
+
+        </nombres>
+
+
+
+
+
+    </marcas>
+
+
+
+
+
+
+
+</coches>
