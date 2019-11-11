@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+
+
+    </style>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <h2>Reservation request</h2>
+
+            <fieldset>
+                <legend>
+                    <font color="blue">General information</font>
+                </legend>
+                <table>
+                    <tr>
+                        <td>Arrival date:</td>
+                        <td><input type="date" name="llegada"></td>
+                    </tr>
+                    <tr>
+                        <td>Nights:</td>
+                        <td><input type="number" name="noches"></td>
+                    </tr>
+                    <tr>
+                        <td>Adults:</td>
+                        <td>
+                            <select>
+                                <option>0</option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Children:</td>
+                        <td>
+                            <select>
+                                <option>0</option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+
+
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+
+
+            </fieldset>
+            
+            <fieldset>
+                    <legend>
+                        <font color="blue">Preferences</font>
+                    </legend>
+                    <table>
+                        <tr>
+                            <td>Room type:</td>
+                            <td><input type="radio" name="tipo habitacion">Standard</td>
+                            <td><input type="radio" name="tipo habitacion">Business</td>
+                            <td><input type="radio" name="tipo habitacion">Suite</td>
+                        </tr>
+                        <tr>
+                            <td>Bed type:</td>
+                            <td><input type="radio" name="tipo cama">King</td>
+                            <td><input type="radio" name="tipo cama">Double double</td>
+                        </tr>
+                        <tr>
+                                <td><input type="checkbox" name="fuma">Smoking</td>
+                        </tr>
+                            
+                    </table>
+    
+    
+                </fieldset>
+                <fieldset>
+                        <legend>
+                            <font color="blue">Contact information</font>
+                        </legend>
+                        <table>
+                            <tr>
+                                <td>Name:</td>
+                                <td><input type="text" name="nombre"></td>
+                                
+                            </tr>
+                            <tr>
+                                <td>Email:</td>
+                                <td><input type="email" name="email"></td>
+                            </tr>
+                            <tr>
+
+                                <td>Phone:</td>
+                                    <td><input type="tel" name="telefono"></td>
+                            </tr>
+                                
+                        </table>
+        
+        
+                    </fieldset>
+
+                    <table>
+                        <td><button type="submit">Submit Reservation</button></td>
+                        <td><button type="reset">Clear</button></td>
+
+                    </table>
+    
+
+
+
+
+
+        </fieldset>
+
+
+    </form>
+</body>
+
+</html>
