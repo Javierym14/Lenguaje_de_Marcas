@@ -1,0 +1,150 @@
+*{
+    box-sizing: border-box;
+}
+
+
+.fondo_titulo{
+    background-color: black;
+    margin-top: 0px;
+    margin-left: 0px;
+    height: 122px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+}
+.titulo{
+    color: white;
+    margin-left: 5px;
+    padding-top: 15px;
+    
+    
+}
+.identificar{
+   text-align: right;
+   color: white;
+   margin-right: 5px;
+}
+.lista{
+    background-color: #3e610f;
+    height: 40px;
+    border-bottom: 2px solid green;
+    
+}
+.lista div{
+    float: left;
+    padding: 15px;
+    color: white;
+}
+.lista div:hover{
+    background-color: brown;
+    color: black;
+    
+}
+
+.menu_principal{
+    background-color: #b2b4b0;
+    width: 20%;
+    float: left;
+    margin-top: 10px;
+    border-radius: 2%;
+    height: 295px;
+}
+.menu img{
+    padding-left: 25px;
+}
+
+.menu h4{
+    
+    padding-left: 25px;
+}
+.fotos{
+    clear: both;
+}
+.patio{
+    width: 80%;
+    margin: 0px auto;
+    
+    
+}
+.patio img{
+    width: 100%;
+    float: left;
+    padding-bottom: 17%;
+   
+}
+.patio_padre{
+    width: 60%;
+    float: left;
+    margin-top: 10px;
+    
+    
+    
+    
+}
+.calendario_padre{
+    float: left;
+    width: 20%;
+    background-color: #b2b4b0;
+    margin-top: 10px;
+    border-radius: 2%;
+    height: 295px;
+    
+
+}
+
+.calendario{
+    float: left;    
+}
+.calendario img{
+    padding-left: 45px;
+    
+}
+.calendario h4{
+    padding-left: 45px ;
+}
+
+.categoria{
+    clear: both;
+    background-color: #b2b4b0;
+    border-bottom: 2px solid black;
+    margin-bottom: 10px;
+    font-weight: bolder;
+}
+.arbol{
+    background-color: #b2b4b0;
+    position: relative;
+    height: 170px;
+    margin-bottom: 45px;
+    
+}
+.arbol img{
+    position: absolute;
+    width: 10%;
+    left: 89%;
+    top: 50%;
+}
+ul{
+    list-style: none;
+    padding-top: 5px;
+}
+ul li{
+    padding-top: 5px;
+    color: teal;
+}
+span{
+    color: black;
+    font-weight: bolder;
+}
+
+.footer{
+    clear: both;
+    text-align: center;
+    background-color: black;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+    
+}
+.footer p{
+    color: white;
+}
