@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    border-top: 4px solid blue;
+
+}
+
+body {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.grande {
+
+    color: #1a159b;
+    margin-left: 5%;
+    font-size: 42px;
+    float: left;
+    width: 35%;
+    margin-bottom: 0px;
+
+}
+
+.grande p {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.menu {
+
+    float: left;
+    width: 60%;
+
+
+}
+
+.menu li {
+    display: inline-block;
+    padding: 15px;
+    font-size: 20px;
+    color: gray;
+
+}
+
+.menu li button {
+    border-radius: 5px;
+    background-color: forestgreen;
+    font-size: 15px;
+    color: white;
+    padding: 10px;
+    font-weight: bolder;
+    border: 0px;
+}
+
+
+.chico {
+    font-size: 15px;
+    color: #1a159b;
+    margin-top: 0px;
+
+}
+
+.texto {
+    background-color: #164d8a;
+    overflow-y: auto;
+
+}
+
+.texto>div {
+    float: right;
+    width: 45%;
+}
+
+.texto_grande {
+    font-size: 60px;
+    margin-bottom: 0px;
+    color: white;
+    margin-top: 20px;
+
+}
+
+.texto_chico {
+    font-size: 60px;
+    margin-top: 0px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.parrafo {
+    font-size: 30px;
+    color: white;
+    margin-top: 0px;
+}
+
+.parrafo span {
+    font-weight: bolder;
+}
+
+.boton1,
+.boton2 {
+    border-radius: 5px;
+}
+
+.boton1 {
+    font-size: 20px;
+    padding: 3%;
+    background-color: forestgreen;
+    color: white;
+    border: 0px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+}
+
+.boton2 {
+    font-size: 15px;
+    padding: 2%;
+    background-color: #164d8a;
+    border: 1px solid grey;
+    color: white;
+}
+
+.fotos_texto {
+    clear: both;
+    overflow-y: auto;
+    position: relative;
+}
+
+.blanco {
+    height: 60px;
+
+}
+
+.fotos {
+    position: absolute;
+    width: 45%;
+    bottom: 0%;
+    left: 25px;
+
+}
+
+img {
+    width: 118%;
+}
+
+.gris {
+    height: 80px;
+    background-color: #dce3e6;
+}
+
