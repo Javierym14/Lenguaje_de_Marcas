@@ -1,0 +1,213 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0px auto;
+    width: 90%;
+}
+
+
+.cen_imp {
+    width: 50%;
+}
+
+.centum {
+    float: left;
+
+}
+
+.centum h1 {
+    border-right: 1px solid black;
+
+}
+
+.centum h1 span {
+    color: green;
+}
+
+.impress {
+    float: left;
+    margin-right: 45%;
+}
+
+.contacto ul{
+    margin: 0px;
+}
+.contacto {
+    clear: both;
+    float: right;
+}
+
+.contacto1 {
+    float: left;
+}
+
+.contacto1 p {
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 5px;
+}
+
+.contacto2 p {
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.contacto1 img {
+    float: left;
+    margin-right: 5px;
+}
+
+.contacto2 img {
+    float: left;
+    margin-right: 5px;
+}
+
+.contacto ul li {
+    display: inline-block;
+
+}
+
+
+nav {
+    clear: both;
+    background-color: black;
+    height: 50px;
+}
+
+.menu {
+
+    float: left;
+    margin-right: 33%;
+    width: 50%;
+    margin-top: 0px;
+}
+
+.menu li :hover{
+    background-color: white;
+    color: red;
+}
+
+nav ul a {
+    display: inline-block;
+
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    border-right: 1px solid white;
+    color: white;
+    font-weight: bolder;
+
+}
+
+nav ul p {
+    margin-right: 10px;
+}
+
+form {
+    float: left;
+    background-color: black;
+    margin-top: 15px;
+}
+
+form input {
+    background-color: black;
+    border: 0px;
+}
+
+.castillo {
+    position: relative;
+    width: 100%;
+}
+
+.castillo img {
+    width: 100%;
+
+
+}
+
+.castillo .texto {
+    position: absolute;
+    width: 30%;
+    background-color: gray;
+    color: white;
+    padding: 1%;
+    bottom: 10%;
+    left: 5%;
+    opacity: 0.5;
+
+}
+
+.derecha {
+    width: 20px;
+    position: absolute;
+    left: 95%;
+    bottom: 5%;
+
+}
+
+.derecha p {
+    background-color: gray;
+    text-align: center;
+    color: white;
+}
+
+.izquierda {
+    width: 20px;
+    position: absolute;
+    left: 93.5%;
+    bottom: 5%;
+}
+
+.izquierda p {
+    background-color: gray;
+    text-align: center;
+    color: white;
+
+}
+
+.movil,
+.gear,
+.tele {
+    width: 33%;
+    float: left;
+}
+
+.movil img {
+    float: left;
+    margin-right: 7%;
+}
+
+.tele img {
+    float: left;
+    margin-right: 7%;
+}
+
+.gear img {
+    float: left;
+    margin-right: 7%;
+}
+
+.movil h2 {
+    margin-top: 12px;
+}
+
+.tele h2 {
+    margin-top: 12px;
+}
+
+.gear h2 {
+    margin-top: 12px;
+}
+
+.tele_texto, .movil_texto, .gear_texto{
+    float: left;
+    width: 80%;
+}
