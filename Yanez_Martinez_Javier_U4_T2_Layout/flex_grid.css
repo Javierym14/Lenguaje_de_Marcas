@@ -1,0 +1,233 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 50px repeat(2, 12%) repeat(6, 10%) 150px;
+    grid-template-rows: 50px 45px 25px 50px 50px 20px 75px 20px 80px 100px;
+    height: 650px;
+    border-top: 2px solid blue;
+    
+
+}
+
+.grande {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    font-size: 30px;
+}
+
+.grande p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    color: #1a159b;
+
+}
+
+.chico {
+    font-size: 9px;
+    margin-top: 0px;
+    text-align: center;
+}
+
+.home {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    text-align: center;
+}
+
+.producto {
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    text-align: center;
+
+}
+
+.beneficios {
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    text-align: center;
+}
+
+.blog {
+    grid-column-start: 7;
+    grid-column-end: 8;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    text-align: center;
+}
+
+.fale {
+    grid-column-start: 8;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    text-align: center;
+
+}
+
+.login {
+    grid-column-start: 9;
+    grid-column-end: 10;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    text-align: center;
+}
+
+.login,
+.fale,
+.blog,
+.beneficios,
+.producto,
+.home {
+    color: gray;
+}
+
+.experimente {
+    grid-column-start: 10;
+    grid-column-end: 11;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    text-align: center;
+}
+
+button {
+    margin-top: 15px;
+    font-size: 15px;
+    padding: 1%;
+    background-color: forestgreen;
+    color: white;
+    border-radius: 5px;
+    z-index: 5;
+
+}
+
+.azul {
+    grid-column-start: 1;
+    grid-column-end: 12;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    background-color: #164d8a;
+}
+
+.fotos {
+    grid-column-start: 2;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 10;
+    z-index: 10;
+
+
+}
+
+.fotos img {
+    width: 100%;
+    z-index: 10;
+}
+
+.texto_grande {
+    grid-column-start: 6;
+    grid-column-end: 10;
+    grid-row-start: 4;
+    grid-row-end: 4;
+
+}
+
+.texto_grande p {
+    font-size: 63px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    color: white;
+}
+
+.texto_chico {
+    grid-column-start: 6;
+    grid-column-end: 11;
+    grid-row-start: 5;
+    grid-row-end: 5;
+
+}
+
+.texto_chico p {
+    font-size: 65px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    color: white;
+}
+
+.parrafo {
+    grid-column-start: 6;
+    grid-column-end: 11;
+    grid-row-start: 7;
+    grid-row-end: 8;
+}
+
+.parrafo p {
+    font-size: 30px;
+    margin-left: 10px;
+    color: white;
+}
+
+.parrafo span {
+    font-weight: bolder;
+}
+
+.botones {
+    grid-column-start: 6;
+    grid-column-end: 10;
+    grid-row-start: 9;
+    grid-row-end: 10;
+
+}
+
+.botones .boton1 {
+    margin-left: 10px;
+    font-size: 20px;
+    padding: 3%;
+    background-color: forestgreen;
+    color: white;
+    border: 0px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+}
+
+.botones .boton2 {
+    font-size: 15px;
+    padding: 2%;
+    background-color: #164d8a;
+    border: 1px solid grey;
+    color: white;
+    border-radius: 5px;
+}
+
+.fondo_azul {
+    grid-column-start: 1;
+    grid-column-end: 12;
+    grid-row-start: 3;
+    grid-row-end: 10;
+    background-color: #164d8a;
+
+}
+
+.gris {
+    grid-column-start: 1;
+    grid-column-end: 12;
+    grid-row-start: 10;
+    grid-row-end: 11;
+    background-color: #dce3e6;
+    z-index: 2;
+
+}
