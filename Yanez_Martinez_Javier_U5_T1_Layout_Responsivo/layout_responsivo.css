@@ -1,0 +1,490 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0px auto;
+    width: 90%;
+
+}
+
+.nombre_pagina span {
+    color: aquamarine;
+}
+
+.naranja_oscuro {
+    background-color: orangered;
+}
+
+.naranja {
+    background-color: orange;
+}
+
+.violeta {
+    background-color: palevioletred;
+}
+
+.verde_oscuro {
+    background-color: green;
+}
+
+.verde {
+    background-color: greenyellow;
+}
+
+.soluciones, .investigaciones, .finanzas, .marketing {
+    background-color:rgba(194, 186, 186, 0.2);
+    padding: 2%;
+    color: rgb(48, 46, 46);
+    
+}
+
+.soluciones2, .investigaciones2, .finanzas2, .marketing2 {
+    border-bottom: 1px solid black;
+    padding: 2%;
+    color: black;
+    
+}
+
+.help img{
+    width: 100%;
+}
+
+.colores{
+    color: white;
+    border-radius: 10px;
+    
+}
+
+.menu div{
+    color: rgb(105, 103, 103);
+}
+
+
+
+
+.help img{
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 576px) {
+
+    .nombre_pagina {
+        text-align: center;
+        margin-top: 25px;
+
+    }
+
+    .nombre_pagina p {
+        font-size: x-large;
+    }
+
+    .icon {
+        width: 20%;
+        color: aquamarine;
+        margin-bottom: 20px;
+
+    }
+
+
+    .colores {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+        
+    }
+
+    .colores p{
+        font-size: 20px;
+        font-weight: bolder;
+    }
+
+    .colores .primero {
+        margin-left: 10px;
+    }
+
+    .colores .segundo {
+        margin-right: 10px;
+    }
+
+    .help img {
+        width: 100%;
+        
+    }
+
+    .soluciones2 {
+        display: flex;
+    }
+
+    .soluciones2 p {
+        margin-left: 20px;
+    }
+
+    .soluciones2 img {
+        width: 10%;
+        
+
+    }
+
+    .investigaciones2{
+        display: flex;
+    }
+
+    .investigaciones2 p{
+        margin-left: 20px;
+    }
+
+    .investigaciones2 img{
+        width: 7%;
+        
+    }
+
+    .finanzas2{
+        display: flex;
+    }
+
+    .finanzas2 p{
+        margin-left: 20px;
+    }
+
+    .finanzas2 img{
+        width: 6%;
+        
+    }
+
+    .marketing2{
+        display: flex;
+    }
+
+    .marketing2 p{
+        margin-left: 20px;
+    }
+
+    .marketing2 img{
+        width: 7%;
+        
+    }
+}
+    @media screen and (min-width: 576px) {
+
+        .container{
+            width: 100%;
+            height: 1200px;
+        }
+
+        .nombre_pagina{
+            text-align: left;
+            margin-left: 30px;
+            margin-bottom: 30px;
+            font-size: 25px;
+        }
+
+        .menu{
+            text-align: right;
+            position: absolute;
+            bottom: 4%;
+            left: 45%;
+            
+        }
+
+        .menu .icon {
+            display: none;
+        }
+
+        .menu div{
+            display: inline-block;
+            margin-right: 5px;
+        }
+
+        header{
+            position: relative;
+        }
+
+        main{
+            display: flex;
+        }
+
+        .colores {
+           width: 7%;
+           height: 300px;
+           position: relative;
+           
+        }
+
+        .colores .segundo{
+            font-size: 15px;
+            font-weight: bolder;
+        }
+
+        .colores .primero{
+            position: absolute;
+            top: 80%;
+            left: 35%;
+            font-size: 25px;
+        }
+
+        .colores  .segundo{
+            transform: rotate(-90deg);
+            margin-top: 60px;
+        }
+
+
+        .naranja_oscuro{
+            margin-left: 30px;
+        }
+
+        .naranja{
+            margin-left: 5px;
+        }
+
+        .violeta{
+            margin-left: 5px;
+        }
+
+        .verde_oscuro{
+            margin-left: 5px;
+        }
+
+        .verde{
+            margin-left: 5px;
+        }
+
+        
+
+        .naranja{
+            margin-left: 5px;
+        }
+
+        .help{
+            width: 50%;
+            margin-left: 5px;
+            
+        }
+
+        .help img{
+            height: 300px;
+        }
+
+
+       img{
+           width: 20%;
+       }
+
+       .main{
+           position: relative;
+       }
+
+       .soluciones, .investigaciones, .marketing, .finanzas{
+        width: 35%;
+    }
+
+       .soluciones{
+           position: absolute;
+           top: 50%;
+           left: 5%;
+       }
+
+       .investigaciones{
+        position: absolute;
+        top: 50%;
+        left: 56%;
+    }
+
+    .marketing{
+        position: absolute;
+        top: 115%;
+        left: 56%;
+    }
+
+    .finanzas{
+        position: absolute;
+        top: 115%;
+        left: 5%;
+    }
+
+    .soluciones2, .marketing2, .investigaciones2, .finanzas2{
+        display: flex;
+    }
+
+    .soluciones2 p{
+        margin-left: 15px;
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }
+
+    .investigaciones2 p{
+        margin-left: 15px;
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }
+
+    .marketing2 p{
+        margin-left: 15px;
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }
+
+    .finanzas2 p{
+        margin-left: 15px;
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }       
+}
+
+@media screen and (min-width: 992px){
+
+    .nombre_pagina{
+        text-align: left;
+        margin-left: 150px;
+        margin-bottom: 30px;
+        font-size: 40px;
+    }
+
+    .menu{
+        text-align: right;
+        position: absolute;
+        bottom: 4%;
+        left: 30%;
+        font-size: 25px;
+        
+        
+    }
+
+    .menu .icon {
+        display: none;
+    }
+
+    .menu div{
+        display: inline-block;
+        margin-right: 15px;
+    }
+
+    .help img{
+        width: 100%;
+        height: 400px;
+    }
+
+    .help{
+        width: 55%;
+    }
+
+    .menu{
+        text-align: right;
+        position: absolute;
+        bottom: 4%;
+        left: 45%;
+        
+    }
+
+    .menu .icon {
+        display: none;
+    }
+
+    .menu div{
+        display: inline-block;
+        margin-right: 5px;
+    }
+
+    header{
+        position: relative;
+    }
+
+    main{
+        display: flex;
+    }
+
+    .colores {
+       width: 7%;
+       height: 400px;
+       position: relative;
+       
+    }
+
+    .colores .segundo{
+        font-size: 25px;
+        font-weight: bolder;
+    }
+
+    .colores .primero{
+        position: absolute;
+        top: 70%;
+        left: 40%;
+        font-size: 40px;
+    }
+
+    .colores  .segundo{
+        transform: rotate(-90deg);
+        margin-top: 60px;
+    }
+
+
+    .naranja_oscuro{
+        margin-left: 85px;
+    }
+
+    .naranja{
+        margin-left: 10px;
+    }
+
+    .violeta{
+        margin-left: 10px;
+    }
+
+    .verde_oscuro{
+        margin-left: 10px;
+    }
+
+    .verde{
+        margin-left: 10px;
+    }
+
+    .naranja{
+        margin-left: 10px;
+    }
+
+    .soluciones, .investigaciones, .marketing, .finanzas{
+        width: 20%;
+        height: 400px;
+        
+    }
+
+    .soluciones2, .investigaciones2, .marketing2, .finanzas2{
+        font-size: 25px;
+    }
+
+
+
+    .main{
+        position: relative;
+    }
+
+    .soluciones{
+        position: absolute;
+        top: 60%;
+    }
+
+    .investigaciones{
+     position: absolute;
+     top: 60%;
+     left: 29%;
+ }
+
+ .marketing{
+     position: absolute;
+     
+     top: 60%;
+     left: 53%;
+ }
+
+ .finanzas{
+     position: absolute;
+     
+     top: 60%;
+     left: 77%;
+ }
+
+    
+
+
+}
+

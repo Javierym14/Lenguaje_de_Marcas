@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="layout_responsivo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<title>layout_responsivo</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="nombre_pagina">
+                <p><span>Bizz</span>.consulting</p>
+            </div>
+            <div class="menu">
+                <div class="icon"><i class="fa fa-bars"></i></div>
+                <div class="menu_item">Home</div>
+                <div class="menu_item">Investments</div>
+                <div class="menu_item">Finance</div>
+                <div class="menu_item">Support</div>
+                <div class="menu_item">Clients</div>
+            </div>
+        </header>
+
+        <main>
+            <div class="colores naranja_oscuro">
+                <p class="primero">1</p>
+                <p class="segundo">Welcome</p>
+            </div>
+            
+
+            <div class="help">
+                <img src="help.png">
+            </div>
+            
+            <div class="colores naranja">
+                <p class="primero">2</p>
+                <p class="segundo">Investments</p>
+
+            </div>
+
+            <div class="soluciones">
+                <div class="soluciones2">
+                    <img src="soluciones.png">
+                    <p>Solutions</p>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit pretium, a luctus enim condimentum est in
+                    quis, viverra fames magna elementum ultricies risus eleifend. Condimentum class penatibus non
+                    ultrices pulvinar lectus, diam fusce vitae erat quis mus a, bibendum justo curabitur laoreet
+                    lobortis eu, fames himenaeos netus sodales ligula. Elementum vehicula malesuada inceptos suscipit
+                    duis placerat venenatis quam vestibulum, arcu gravida habitasse sem posuere
+                    lacinia commodo blandit proin erat, molestie feugiat tristique dictum nostra viverra ridiculus
+                    curae.</p>
+            </div>
+
+            <div class="colores violeta">
+                <p class="primero">3</p>
+                <p class="segundo">Corporate finance</p>
+
+            </div>
+
+            <div class="investigaciones">
+                <div class="investigaciones2">
+                    <img src="investigaciones.png">
+
+                    <p>Investments</p>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit pretium, a luctus enim condimentum est in
+                    quis, viverra fames magna elementum ultricies risus eleifend. Condimentum class penatibus non
+                    ultrices pulvinar lectus, diam fusce vitae erat quis mus a, bibendum justo curabitur laoreet
+                    lobortis eu, fames himenaeos netus sodales ligula. Elementum vehicula malesuada inceptos suscipit
+                    duis placerat venenatis quam vestibulum, arcu gravida habitasse sem posuere
+                    lacinia commodo blandit proin erat, molestie feugiat tristique dictum nostra viverra ridiculus
+                    curae.</p>
+            </div>
+
+            <div class="colores verde_oscuro">
+                <p class="primero">4</p>
+                <p class="segundo">New markers</p>
+
+            </div>
+
+            <div class="finanzas">
+                <div class="finanzas2">
+                    <img src="finanzas.png">
+                    <p>Financing</p>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit pretium, a luctus enim condimentum est in
+                    quis, viverra fames magna elementum ultricies risus eleifend. Condimentum class penatibus non
+                    ultrices pulvinar lectus, diam fusce vitae erat quis mus a, bibendum justo curabitur laoreet
+                    lobortis eu, fames himenaeos netus sodales ligula. Elementum vehicula malesuada inceptos suscipit
+                    duis placerat venenatis quam vestibulum, arcu gravida habitasse sem posuere
+                    lacinia commodo blandit proin erat, molestie feugiat tristique dictum nostra viverra ridiculus
+                    curae.</p>
+            </div>
+
+            <div class="colores verde">
+                <p class="primero">5</p>
+                <p class="segundo">Financing technology</p>
+
+            </div>
+
+            <div class="marketing">
+                <div class="marketing2">
+                <img src="marketing.png">
+                <p>Marketing</p>
+            </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit pretium, a luctus enim condimentum est in
+                    quis, viverra fames magna elementum ultricies risus eleifend. Condimentum class penatibus non
+                    ultrices pulvinar lectus, diam fusce vitae erat quis mus a, bibendum justo curabitur laoreet
+                    lobortis eu, fames himenaeos netus sodales ligula. Elementum vehicula malesuada inceptos suscipit
+                    duis placerat venenatis quam vestibulum, arcu gravida habitasse sem posuere
+                    lacinia commodo blandit proin erat, molestie feugiat tristique dictum nostra viverra ridiculus
+                    curae.</p>
+            </div>
+
+        </main>
+
+
+
+    </div>
+    <script>
+        $(function () {
+            //Captura del evento para mostrar u ocultar
+            $(".icon").click(function () {
+                $(".menu_item").toggle();
+            });
+            $(window).resize(function () {
+                var anchura = $(this).width();
+                if (anchura > 576) {
+                    $(".menu_item").show();
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
