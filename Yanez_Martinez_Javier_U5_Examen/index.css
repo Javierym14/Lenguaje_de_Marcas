@@ -1,0 +1,196 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 576px){
+
+    header{
+        display: flex;
+        background-color: black;
+    }
+
+    .formulario label, input{
+        display: none;
+    }
+
+    .menu ul, .buscador{
+        display: none;
+    }
+
+    .titulo{
+        width: 40%;
+    }
+
+    .icon{
+        color: white;
+        
+    }
+
+    .primero{
+        text-align: center;
+        font-size: 40px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        background-color: grey;
+    }
+
+    form{
+        text-align: center;
+        background-color: grey;
+    }
+
+    button{
+        font-size: 20px;
+        padding: 3%;
+        border-radius: 10px;
+        background-color: plum;
+        color: white;
+        margin-bottom: 10px;
+        margin-top: 5px;
+    }
+
+    .segundo{
+        text-align: center;
+        font-size: 20px;
+        color: white;
+        background-color: black;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding: 3%;
+    }
+
+    .fotos{
+        display: grid;
+        grid-template-columns:repeat(2, 50%) ;
+        grid-template-rows: repeat(4,200px);
+        margin-top: 15px;
+        text-align: center;
+    }
+
+    .fotos div img{
+        width: 80%;
+        
+    }
+
+    .imagenes div {
+        text-align: left;
+        margin-left: 25px;
+    }
+
+    .icon_dos{
+        color: violet;
+    }
+
+}
+
+@media screen and (min-width: 576px){
+
+    header{
+        display: flex;
+        background-color: black;
+    }
+
+    .menu ul, .buscador{
+        display: none;
+    }
+
+    .titulo{
+        width: 40%;
+    }
+
+    .icon{
+        color: white;
+        margin-right: 25px;
+        
+    }
+
+    .primero{
+        font-size: 35px;
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        color: white;
+    }
+
+    .formulario{
+        width: 70%;
+        height: 150px;
+        margin-left: 150px;        
+    
+    }
+
+    .formulario input{
+        padding-right: 75%;
+        height: 30px;
+        margin-top: 10px;
+        
+    }
+
+    form{
+        background-color: white;
+        padding: 1%;
+    }
+
+    form label{
+        text-align: left;
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+
+    main{
+        background-color: grey;
+    }
+
+   
+
+    form button{
+        margin-left: 220px;
+        margin-top: 15px;
+        font-size: 15px;
+        padding: 3%;
+        border-radius: 10px;
+        background-color: plum;
+        color: white;
+        
+    }
+
+    .segundo{
+        margin-top: 80px;
+        text-align: center;
+        background-color: black;
+        color: white;
+        padding: 2%;
+        font-size: 20px;
+        
+    }
+
+    .fotos{
+        display: grid;
+        grid-template-columns:repeat(2, 40%) ;
+        grid-template-rows: repeat(4,250px);
+        margin-top: 15px;
+        text-align: center;
+    }
+
+    .fotos div img{
+        width: 60%;        
+    }
+
+    .imagenes div {
+        text-align: left;
+        margin-left: 75px;
+    }
+
+    .icon_dos{
+        color: violet;
+    }
+
+}
+
