@@ -1,0 +1,265 @@
+*{
+    box-sizing: border-box;
+}
+
+.amarillo{
+    background-color: orange;
+   
+}
+
+.naranja{
+    background-color: orangered;
+}
+
+.rosa{
+    background-color: orchid;
+}
+
+.verde_oscuro{
+    background-color: green;
+}
+
+.verde_claro{
+    background-color: greenyellow;
+}
+
+.rosa, .amarillo, .naranja, .verde_claro, .verde_oscuro{
+    border-radius: 10px;
+}
+
+.help img{
+    border-radius: 10px;
+}
+
+span{
+    color: aqua;
+}
+
+.menu{
+    color: gray;
+}
+
+.primero, .segundo{
+    color: white;
+    font-weight: bolder;
+
+}
+
+.texto{
+    background-color: rgba(194, 186, 186, 0.2);
+    padding: 1%;
+    
+}
+
+@media screen and (max-width: 576px){
+    header, .colores, .cajas, .fotos, .naranja, .rosa, .amarillo, .verde_oscuro, .verde_claro{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+     .rosa, .amarillo, .verde_oscuro, .verde_claro{
+        position: absolute;
+    }
+
+    .nombre_pagina{
+        text-align: center;
+        
+    }
+
+    .nombre_pagina p{
+        font-size: x-large;
+        margin-top: 15px;
+    }
+
+    .help img{
+        width: 100%;
+        margin-top: 5px;
+    }
+
+    .cuerpo{
+        position: relative;
+    }
+
+    img{
+        width: 20%;
+    }
+
+    .texto{
+        margin-top: 60px;
+    }
+
+    .amarillo{
+        top: 300px;
+    }
+
+    .rosa{
+        top: 625px;
+    }
+
+    .verde_oscuro{
+        top: 945px;
+    }
+
+    .verde_claro{
+        top: 1265px;
+    }     
+
+    .fotos{
+        border-bottom: 1px solid black;
+    }
+}
+
+
+@media screen and (min-width: 576px){
+
+    header, .colores, .cajas, .fotos{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .icon{
+        display: none;
+    }
+
+    .nombre_pagina p{
+        font-size: x-large;
+    }
+
+    .menu_item{
+        display: inline-block;
+        margin-top: 15px;
+    }
+
+    .naranja, .rosa, .amarillo, .verde_oscuro, .verde_claro{
+        position: relative;
+        height: 300px;
+        margin-left: 5px;
+    }
+
+    .naranja p, .rosa p, .amarillo p, .verde_oscuro p, .verde_claro p{
+        font-size: 15px;
+        position: absolute;
+    }
+
+    .primero{
+        top: 270px;
+        left: 15px;
+    }
+
+    .segundo{
+        top:100px;
+        right: 0px;
+        left: 2px;
+        margin: 0px;
+        rotate: -90deg;
+    }
+
+    .help{
+        padding: 0px;
+    }
+
+    .help img{
+        width: 100%;
+        height: 300px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    img{
+        width: 30%;
+    }
+
+    .texto{
+        margin-top: 10px;
+        border: 1px solid grey;
+    }
+
+    .fotos{
+        border-bottom: 1px solid black;
+    }
+    
+}
+
+@media screen and (min-width: 992px){
+
+    header, .colores, .cajas, .fotos{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .icon{
+        display: none;
+    }
+
+    .nombre_pagina p{
+        font-size: xx-large;
+    }
+
+    .menu_item{
+        display: inline-block;
+        margin-top: 15px;
+        font-size: 20px;
+    }
+
+    .naranja, .rosa, .amarillo, .verde_oscuro, .verde_claro{
+        position: relative;
+        height: 300px;
+        margin-left: 5px;
+    }
+
+    .naranja p, .rosa p, .amarillo p, .verde_oscuro p, .verde_claro p{
+        font-size: 20px;
+        position: absolute;
+    }
+
+    .primero{
+        top: 265px;
+        left: 20px;
+    }
+
+    .segundo{
+        top:100px;
+        right: 0px;
+        left: 15px;
+        margin: 0px;
+        rotate: -90deg;
+    }
+
+    .help{
+        padding: 0px;
+    }
+
+    .help img{
+        width: 100%;
+        height: 300px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    img{
+        width: 30%;
+    }
+
+    .texto{
+        margin-top: 10px;
+        border: 1px solid grey;
+    }
+
+    .fotos{
+        border-bottom: 1px solid black;
+    }
+
+    .texto_soluciones p, .texto_investigaciones p, .texto_finanzas p, .texto_marketing p{
+        margin-top: 15px;
+        margin-bottom: 0px;
+    }
+
+    .foto_soluciones img, .foto_marketing img, .foto_finanzas img{
+        width: 20%;
+    }
+
+    .foto_investigaciones img {
+        width: 26%;
+    }
+
+}
